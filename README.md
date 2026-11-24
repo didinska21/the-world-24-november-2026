@@ -20,3 +20,9 @@ reported on this Tuesday.**
 - 38 numbered briefs across 8 regions, each with a colour-coded region tag.
 - A region key with story counts, a round-the-world timeline of the day,
   and a footer stating the date-check rule.
+
+## How it runs
+
+`main.ts` (Node 22, standard library only) copies the bundled `entry.png`
+to the output directory as `entry.png` — byte-identical on every run.
+`draw_frontpage.py` is the drawing program that produced the image.
